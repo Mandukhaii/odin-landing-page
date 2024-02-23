@@ -1,4 +1,162 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
 img {
-  width: 500px;
-  height: 250px;
+  width: 430px;
+  height: 200px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding-bottom: 48px;
+}
+
+.hero-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 72px;
+  margin-bottom: 48px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero-card {
+  max-width: 430px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  padding: 4px 20px;
+  border-radius: 6px;
+  border: none;
+  color: #f9faf8;
+}
+
+.subtext {
+  color: #e5e7eb;
+  margin: 8px 0px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.items {
+  max-width: 150px;
+}
+
+.square {
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 6px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 800px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 48px;
+  padding: 24px;
+  background-color: #3882f6;
+  margin: 48px 82px;
+  border-radius: 5px;
+}
+
+.cta-text {
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.cta-subtext {
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.sign-up-2 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  border-radius: 6px;
+  padding: 4px 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
