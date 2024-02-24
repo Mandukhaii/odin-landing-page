@@ -2,4 +2,4 @@
 
 Odin Foundations Landing Page Project:
 
-https://www.theodinproject.com/lessons/foundations-git-basics
+https://www.theodinproject.com/lessons/foundations-landing-page
